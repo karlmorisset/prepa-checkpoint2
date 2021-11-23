@@ -10,9 +10,12 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     {% block stylesheet %}{% endblock %}
     <link rel="icon" href="/assets/images/favicon.png">
+    <script src="/assets/js/index.js" defer></script>
 </head>
 
 <body>
+    <h1 class="main-title"><a href="/">Breaking Dev</a></h1>
+
     {% block content %}{% endblock %}
     {% block javascript %}{% endblock %}
 </body>

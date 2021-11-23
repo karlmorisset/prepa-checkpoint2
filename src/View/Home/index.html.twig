@@ -1,5 +1,24 @@
 {% extends 'layout.html.twig' %}
 
 {% block content %}
-    <h1>Hello Wilder !</h1>
+    <nav>
+        <ul>
+            <li><a class="btn" href="/characters/add">Ajouter un personnage</a></li>
+            <li><a class="btn" href="/quotes/add">Ajouter une citation</a></li>
+        </ul>
+    </nav>
+
+    <div class="characters">
+        {# 
+        1. Liste des personnages
+        2. Format d'un personnage
+            <div class="character">
+                <div class="img">
+                    <img src="" alt="">
+                </div>
+
+                <div class="name"></div>
+            </div> 
+        #}
+    </div>
 {% endblock %}

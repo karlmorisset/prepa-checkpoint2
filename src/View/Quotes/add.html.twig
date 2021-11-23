@@ -1,0 +1,15 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <form action="/quotes/store" method="POST">
+        <div class="field">
+            <label for="quote">Texte de la citation</label>
+            <input type="text" name="quote" id="quote">
+            <div class="error">{{errors['quote']}}</div>
+        </div>
+
+
+        <button class="btn">Ajouter une citation</button>
+
+    </form>
+{% endblock %}
