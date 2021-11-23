@@ -18,8 +18,6 @@ class HomeController extends AbstractController
 
     public function index()
     {
-        $characters = $this->manager->selectAll();
-
-        return $this->twig->render('Home/index.html.twig', ['characters' => $characters]);
+        return $this->twig->render('Home/index.html.twig');
     }
 }
