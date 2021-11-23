@@ -8,9 +8,9 @@
             <div class="error">{{errors['name']}}</div>
         </div>
 
-        <div class="field">
+        <div class="field choixImage">
             {% for image in images %}
-                <div class="img">
+                <div class="img-choix">
                     <img src="{{image.url}}" alt="">
                 </div>
             {% endfor %}
@@ -31,7 +31,7 @@
             <div class="error">{{errors['quote_id']}}</div>
         </div>
 
-        <button class="btn">Ajouter un personnage</button>
+        <button class="btn fullWidth">Ajouter un personnage</button>
 
     </form>
 {% endblock %}
