@@ -11,11 +11,11 @@ define('APP_DB_NAME', 'your_db_name');
 define('APP_DB_USER', 'your_db_user_wich_is_not_root');
 define('APP_DB_PASSWORD', 'your_db_password');
 ```
-4. Importer *breakingdev.sql* dans votre base de données en exécutant
+4. Importer *database.sql* dans votre base de données en exécutant
 ```bash
 php migration.php
 ```
-5.Lancer le serveur avec `php -S localhost:8000 -t public/`.
+5. Lancer le serveur avec `php -S localhost:8000 -t public/`.
 6. Aller sur `localhost:8000`.
 7. Et c'est parti codez !
 
